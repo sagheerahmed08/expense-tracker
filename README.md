@@ -54,4 +54,4 @@ const expense = transactions
 
 const balance = income - expense
 
-Nothing here is stored as its own state — income, expense, and balance are recalculated from transactions on every render, so they can never go stale or drift out of sync with the list.
+Nothing here is stored as its own state — income, expense, and balance are recalculated from transactions on every render, so they can never go stale or drift out of sync with the list
